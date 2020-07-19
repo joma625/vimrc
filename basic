@@ -14,6 +14,7 @@ call plug#end()
 
 " mapping
 inoremap jj <Esc>
+inoremap kk <Right>
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
 
