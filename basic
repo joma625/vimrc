@@ -1,3 +1,5 @@
+syntax on
+
 " Plugins will be downloaded under the specified directory.
 call plug#begin('~/.vim/plugged')
 
@@ -15,6 +17,7 @@ call plug#end()
 " mapping
 inoremap jj <Esc>
 inoremap kk <Right>
+inoremap (( <Right>
 inoremap [[ [<Right>
 inoremap {{ {<Right>
 inoremap "" "<Right>
